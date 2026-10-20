@@ -130,7 +130,8 @@ a{
 }
 
 /*********************************************
-*************PRODUCTOS***********************/
+************* Prodcutos ***********************
+*********************************************/
 
 .featured-products{
     padding:4rem 2rem;
@@ -208,4 +209,131 @@ a{
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+
+/*********************************************
+************* CATÁLOGO ***********************
+*********************************************/
+
+.catalog-layout{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.sidebar{
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 12px;
+    position: sticky;
+    top: 1rem;
+    align-self: start;
+}
+
+.sidebar h2{
+    margin-bottom: 1rem;
+}
+
+.sidebar h3{
+    margin-bottom: .8rem;
+}
+
+.sidebar label{
+    display: block;
+    margin-bottom: .7rem;
+}
+
+.search-bar{
+    margin-bottom: 2rem;
+}
+
+.search-bar input{
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--green-primary);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.catalog-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+}
+
+.catalog-card{
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.catalog-card:hover{
+    transform: translateY(-10px);
+}
+
+.catalog-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .8rem 0;
+}
+
+.stock{
+    display: inline-block;
+    padding: .35rem .8rem;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: .8rem;
+}
+
+.available{
+    background-color: var(--green-primary);
+}
+
+.sold-out{
+    background-color: crimson;
+}
+
+.favorite-btn{
+    display: block;
+    margin: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.favorite-btn:active{
+    color: red;
+}
+
+@media (max-width: 992px){
+
+    .catalog-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .catalog-layout{
+        grid-template-columns: 1fr;
+    }
+
+    .catalog-grid{
+        grid-template-columns: 1fr;
+    }
+
 }
