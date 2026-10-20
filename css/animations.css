@@ -1,0 +1,36 @@
+.nav-links a{
+    transition: .3s;
+}
+
+.nav-links a:hover{
+    color: var(--green-primary);
+}
+
+.footer a{
+    transition: .3s;
+}
+
+.footer a:hover{
+    color: var(--beige);
+}
+
+.product-card{
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 20px rgba(0,0,0,.2);
+}
+
+.catalog-card{
+    transition:.3s;
+}
+
+.catalog-card:hover{
+    transform:translateY(-10px);
+}
+
+.favorite-btn:active{
+    color:red;
+}

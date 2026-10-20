@@ -1,0 +1,142 @@
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    padding:12px 24px;
+    background-color: var(--green-primary);
+    color:white;
+    border-radius:8px;
+}
+
+.btn-card{
+    display:inline-block;
+    margin-top:.6rem;
+    padding:.5rem 1rem;
+    background-color:var(--green-primary);
+    color:white;
+    border-radius:6px;
+}
+
+/* PRODUCTOS */
+
+.product-card{
+    background-color:var(--white);
+    border-radius:12px;
+    padding:1rem;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 12px;
+    align-self: start;
+}
+
+.sidebar h2{
+    margin-bottom: 1rem;
+}
+
+.sidebar h3{
+    margin-bottom: .8rem;
+}
+
+.sidebar label{
+    display: block;
+    margin-bottom: .7rem;
+}
+
+.search-bar input{
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--green-primary);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* CATÁLOGO */
+
+.catalog-card{
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.catalog-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .8rem 0;
+}
+
+.stock{
+    display: inline-block;
+    padding: .35rem .8rem;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: .8rem;
+}
+
+.available{
+    background-color: var(--green-primary);
+}
+
+.sold-out{
+    background-color: crimson;
+}
+
+.favorite-btn{
+    display: block;
+    margin: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+/* FOOTER */
+
+.footer h3{
+    margin-bottom: .4rem;
+    font-size: 1rem;
+}
+
+.footer p{
+    margin-bottom: .25rem;
+    font-size: .9rem;
+    line-height: 1.4;
+}
+
+.footer-copy{
+    background-color: #1f8a4d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
