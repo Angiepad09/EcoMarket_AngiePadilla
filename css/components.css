@@ -1,0 +1,9 @@
+.catalog-content h1{
+    margin-bottom: .5rem;
+}
+
+.catalog-description{
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+}
