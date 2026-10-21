@@ -35,11 +35,7 @@
     transition:.3s;
 }
 
-.favorite-btn span{
-    transition: .3s;
-}
-
-.favorite-btn input:checked + span{
+.favorite-btn:active{
     color: red;
 }
 
