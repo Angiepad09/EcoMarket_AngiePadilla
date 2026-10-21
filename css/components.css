@@ -50,19 +50,31 @@
     padding: 1rem;
     border-radius: 12px;
     align-self: start;
+    box-shadow: 0 4px 10px rgba(0,0,0,.08);
 }
 
 .sidebar h2{
+    color: var(--green-secondary);
+    border-bottom: 2px solid var(--green-primary);
+    padding-bottom: .5rem;
     margin-bottom: 1rem;
 }
 
 .sidebar h3{
+    margin-top: 1.2rem;
     margin-bottom: .8rem;
+    color: var(--dark);
+    font-size: 1.1rem;
 }
 
 .sidebar label{
-    display: block;
-    margin-bottom: .7rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+    padding: .4rem;
+    border-radius: 8px;
 }
 
 .search-bar input{
@@ -73,6 +85,9 @@
     font-size: 1rem;
 }
 
+.sidebar input[type="checkbox"], .sidebar input[type="radio"]{
+    accent-color: var(--green-primary);
+}
 /* CATÁLOGO */
 
 .catalog-card{
@@ -89,6 +104,16 @@
     object-fit: cover;
     border-radius: 8px;
 }
+
+.catalog-content h1{
+    margin-bottom: .5rem;
+}
+
+.catalog-description{
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+} 
 
 .price{
     font-size: 1.2rem;
@@ -113,12 +138,45 @@
 }
 
 .favorite-btn{
-    display: block;
-    margin: auto;
-    border: none;
-    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
     cursor: pointer;
-    font-size: 1.4rem;
+}
+
+.favorite-btn input{
+    display: none;
+}
+
+.favorite-btn span{
+    font-size: 1.5rem;
+     color: var(--dark);
+}
+
+/* PAGINACION */
+
+.pagination{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+    margin-top:2rem;
+}
+
+.pagination a{
+    padding:.6rem 1rem;
+    background-color:var(--white);
+    border-radius:8px;
+}
+
+.pagination .active{
+    background-color:var(--green-primary);
+    color:white;
+}
+
+.pagination a:hover{
+    background-color:var(--green-primary);
+    color:white;
 }
 
 /* FOOTER */
