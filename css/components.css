@@ -138,11 +138,13 @@
 }
 
 .favorite-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .5rem 0;
+    display: block;
+    margin: auto;
+    border: none;
+    background: none;
     cursor: pointer;
+    font-size: 1.4rem;
+    color: var(--dark)
 }
 
 .favorite-btn input{
