@@ -31,6 +31,24 @@
     transform:translateY(-10px);
 }
 
-.favorite-btn:active{
-    color:red;
+.pagination a{
+    transition:.3s;
+}
+
+.favorite-btn span{
+    transition: .3s;
+}
+
+.favorite-btn input:checked + span{
+    color: red;
+}
+
+.sidebar label{
+    transition: .3s;
+}
+
+.sidebar label:hover{
+    background-color: rgba(46, 204, 113, .1);
+    color: var(--green-secondary);
+    padding-left: .8rem;
 }
