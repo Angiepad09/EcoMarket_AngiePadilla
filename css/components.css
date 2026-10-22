@@ -62,8 +62,6 @@
     border-radius: 12px;
     align-self: start;
     box-shadow: 0 4px 10px rgba(0,0,0,.08);
-    position: sticky;
-    top: 1rem;
 }
 
 .sidebar h2{
@@ -113,13 +111,14 @@
 
 .catalog-card img{
     width: 100%;
-    height: 220px;
+    height:auto;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.catalog-content h1{
+.catalog-content{
     margin-bottom: .5rem;
+    min-width:0;
 }
 
 .catalog-description{
@@ -160,20 +159,12 @@
     color: var(--dark)
 }
 
-.favorite-btn input{
-    display: none;
-}
-
-.favorite-btn span{
-    font-size: 1.5rem;
-     color: var(--dark);
-}
-
 /* PAGINACION */
 
 .pagination{
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
     gap:1rem;
     margin-top:2rem;
 }
@@ -326,9 +317,11 @@
 }
 
 .map-image{
-    width:100%;
-    border-radius:12px;
-    margin-bottom:2rem;
+   width:100%;
+   border-radius:12px;
+   margin-bottom:2rem;
+   box-shadow:0 4px 10px rgba(0,0,0,.1);
+   border:3px solid var(--green-primary);
 }
 
 .social-links{

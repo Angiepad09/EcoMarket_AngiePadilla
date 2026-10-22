@@ -58,13 +58,13 @@
 
 .catalog-layout {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .sidebar {
-    position: sticky;
+    position: static;
     top: 1rem;
 }
 
@@ -163,6 +163,15 @@
     .catalog-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+    
+    .catalog-layout{
+        grid-template-columns:250px 1fr;
+    }
+    
+    .sidebar{
+        position: sticky;
+        top: 1rem;
+    }
 
 }
 
@@ -205,6 +214,9 @@
     .footer div {
         width: 100%;
     }
+    body{
+    overflow-x:hidden;
+}
 
 }
 
@@ -214,4 +226,27 @@
         grid-template-columns: 1fr 1fr;
     }
 
+}
+
+@media (max-width: 575px) {
+    .catalog-layout {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 0.75rem;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .catalog-content {
+        min-width: 0;
+    }
+
+    .catalog-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
