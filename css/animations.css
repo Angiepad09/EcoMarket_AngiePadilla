@@ -76,3 +76,10 @@
     scroll-snap-align:center;
 }
 
+.social-links img{
+    transition:.3s;
+}
+
+.social-links img:hover{
+    transform:scale(1.15);
+}
