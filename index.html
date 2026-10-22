@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/layout.css">
-    <title>EcoMarket</title>
+    <link rel="icon" type="image/png" href="img/icons/logo.png">
+    <title>Inicio | EcoMarket</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <nav>
 
             <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html" class="active-link">Inicio</a></li>
                 <li><a href="views/productos.html">Productos</a></li>
                 <li><a href="views/sobre-nosotros.html">Nosotros</a></li>
                 <li><a href="views/contacto.html">Contacto</a></li>
@@ -29,8 +30,17 @@
 
         <div class="header-icons">
 
-            <span>🔍</span>
-            <span>🛒</span>
+            <a href="#" class="nav-icon">
+                <img src="img/icons/lupa.svg" alt="Buscar">
+            </a>
+
+            <a href="#" class="nav-icon">
+                <img src="img/icons/carrito.svg" alt="Carrito">
+            </a>
+
+            <a href="#" class="nav-icon">
+                <img src="img/icons/user.svg" alt="Usuario">
+            </a>
 
         </div>
     </header>
@@ -110,10 +120,26 @@
             <p>Productos responsables para un futuro sostenible.</p>
         </div>
 
-        <div>
-            <h3>Contacto</h3>
-            <p>📧 info@ecomarket.com</p>
-            <p>📞 +57 300 000 0000</p>
+        <div class="footer-info">
+            <p>
+                <img src="img/icons/location.svg" alt="Ubicación">
+                Floridablanca, Santander
+            </p>
+
+            <p>
+                <img src="img/icons/email.svg" alt="Correo">
+                contacto@ecomarket.com
+            </p>
+
+            <p>
+                <img src="img/icons/call.svg" alt="Teléfono">
+                +57 300 123 4567
+            </p>
+
+            <p>
+                <img src="img/icons/horario.svg" alt="Horario">
+                Lun - Sáb: 8:00 AM - 6:00 PM
+            </p>
         </div>
 
         <div>
@@ -121,6 +147,12 @@
             <p>📘 Facebook</p>
             <p>📸 Instagram</p>
             <p>💼 LinkedIn</p>
+        </div>
+
+        <div>
+            <h3>Legal</h3>
+            <p>Política de privacidad</p>
+            <p>Términos y condiciones</p>
         </div>
 
     </footer>
