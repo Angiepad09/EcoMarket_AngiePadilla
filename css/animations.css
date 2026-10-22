@@ -6,6 +6,11 @@
     color: var(--green-primary);
 }
 
+.active-link{
+    color: var(--green-primary);
+    font-weight: bold;
+}
+
 .footer a{
     transition: .3s;
 }
@@ -48,3 +53,26 @@
     color: var(--green-secondary);
     padding-left: .8rem;
 }
+
+.testimonial-card{
+    transition:.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 20px rgba(0,0,0,.15);
+}
+
+.testimonial-container{
+    display:flex;
+    gap:1.5rem;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    padding-bottom:1rem;
+}
+
+.testimonial-card{
+    min-width:300px;
+    scroll-snap-align:center;
+}
+
