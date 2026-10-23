@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/icons/logo.png" alt="Inicio escritorio" width="300">
+</p>
+
 # 🌱 EcoMarket
 
 ## 📖 Descripción del proyecto
@@ -6,19 +10,26 @@ EcoMarket es una página web dedicada a la promoción y comercialización de pro
 
 ---
 
-## 🚀 Instrucciones de visualización
 
-La aplicación se encuentra desplegada en línea mediante GitHub Pages y puede visualizarse desde cualquier navegador web a través del siguiente enlace:
+## 🚀 Instrucciones de visualización y 🌐 Despliegue
 
-**link**
+Para facilitar el acceso al proyecto, la página fue desplegada utilizando **Netlify**. Una vez finalizado el desarrollo y almacenado el código en GitHub, el repositorio se conectó con la plataforma de despliegue para publicar automáticamente la aplicación en internet.
 
-No requiere instalación ni configuraciones adicionales.
+De esta manera, cualquier usuario puede acceder al sitio web desde un navegador sin necesidad de realizar instalaciones o configuraciones adicionales.
+
+**Enlace de la aplicación:**
+
+**https://ecomarketangiepadilla.netlify.app**
+
+No se requiere instalación ni configuración adicional para acceder al proyecto.
 
 ---
+## 📂 Repositorio
 
-## 🌐 Despliegue
+El código fuente completo del proyecto se encuentra disponible en GitHub y puede consultarse a través del siguiente enlace:
 
-El proyecto fue publicado utilizando **GitHub Pages**, permitiendo su acceso público desde cualquier dispositivo con conexión a Internet.
+**Repositorio:**  
+**https://github.com/Angiepad09/EcoMarket_AngiePadilla**
 
 ---
 
@@ -45,8 +56,8 @@ Sistema de control de versiones utilizado para registrar y gestionar los cambios
 ### GitHub
 Plataforma utilizada para alojar el repositorio, gestionar las ramas del proyecto y mantener el historial de cambios.
 
-### GitHub Pages
-Servicio de despliegue utilizado para publicar el sitio web y hacerlo accesible en internet mediante una URL pública.
+### Netlify
+Servicio utilizado para desplegar el proyecto y hacerlo accesible públicamente a través de Internet.
 
 ---
 
@@ -66,8 +77,8 @@ EcoMarket_AngiePadilla/
 │
 ├── img/
 │   ├── hero/
-│   └── icons/
-│   └── products/
+│   ├── icons/
+│   ├── products/
 │   └── capturas/
 │
 └── views/
@@ -102,41 +113,55 @@ La interfaz fue desarrollada siguiendo principios de Responsive Design, permitie
 
 ### 🖥️ Vista de escritorio
 
-#### Página de inicio
+#### Página de inicio - `index.html`
+<p align="center">
+  <img src="img/capturas/escritorio_inicio.png" alt="Inicio escritorio" width="500">
+</p>
 
-![Inicio escritorio](img/capturas/escritorio_inicio.png)
 
-#### Catálogo de productos
+#### Catálogo de productos - `productos.html`
 
-![Catálogo escritorio](img/capturas/escritorio_catalogo.png)
+<p align="center">
+  <img src="img/capturas/escritorio_catalogo.png" alt="Catalogo productos escritorio" width="500">
+</p>
 
-#### Página Nosotros
+#### Página Nosotros - `sobre-nosotros.html`
 
-![Nosotros escritorio](img/capturas/escritorio_nosotros.png)
+<p align="center">
+  <img src="img/capturas/escritorio_nosotros.png" alt="nosotros escritorio" width="500">
+</p>
 
-#### Página Contacto
+#### Página Contacto - `contacto.html`
 
-![Contacto escritorio](img/capturas/escritorio_contacto.png)
-
+<p align="center">
+  <img src="img/capturas/escritorio_contacto.png" alt="contacto escritorio" width="500">
+</p>
 ---
 
 ### 📱 Vista móvil
 
-#### Página de inicio
+#### Página de inicio - `index.html`
+<p align="center">
+  <img src="img/capturas/movil_inicio.jpeg" alt="Inicio Movil" width="250">
+</p>
 
-![Inicio móvil](img/capturas/movil_inicio.jpg)
+#### Catálogo de productos -  `productos.html`
 
-#### Catálogo de productos
+<p align="center">
+  <img src="img/capturas/movil_producto.jpeg" alt="Catalogo Movil" width="250">
+</p>
 
-![Catálogo móvil](assets/screenshots/productos-mobile.png)
+#### Página Nosotros - `sobre-nosotros.html`
 
-#### Página Nosotros
+<p align="center">
+  <img src="img/capturas/movil_nosotros.jpeg" alt="Nosotros Movil" width="250">
+</p>
 
-![Nosotros móvil](assets/screenshots/nosotros-mobile.png)
+#### Página Contacto  - `contacto.html`
 
-#### Página Contacto
-
-![Contacto móvil](assets/screenshots/contacto-mobile.png)
+<p align="center">
+  <img src="img/capturas/movil_contacto.jpeg" alt="Contacto Movil" width="250">
+</p>
 
 ---
 
@@ -168,6 +193,5 @@ docs: agregar documentación del proyecto
 
 ## 👨‍💻 Autor
 
-**Angie Padilla**
+Angie Padilla 
 
-Proyecto académico desarrollado para la práctica y aplicación de HTML5, CSS3, diseño responsive y control de versiones con Git y GitHub.
